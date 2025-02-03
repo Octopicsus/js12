@@ -10,11 +10,12 @@ https://nodejs.org
 ### Step #2
 
 npm init
-(.gitignore)
 
 ### Step #3
 
 npm install --save-dev jest
+
+.gitignore - node_modules/
 
 package.json:
 "scripts": {
