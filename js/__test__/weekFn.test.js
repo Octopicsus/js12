@@ -32,7 +32,7 @@ describe("Tests -  Days of Week Function", () => {
 
     days.forEach((item) => {
       console.log(
-        `Testing day: ${weekFn(item.day)}, Expected: ${item.expected}`
+        `Testing day: ${item.day}, Expected: ${item.expected}`
       );
       expect(weekFn(item.day)).toBe(item.expected);
     });
