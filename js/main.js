@@ -1,7 +1,7 @@
 import { ageClassification } from "./function/ageClassification.js";
 import { weekFn } from "./function/weekFn.js";
 
-const task = 2;
+const task = 1;
 
 switch (task) {
   //

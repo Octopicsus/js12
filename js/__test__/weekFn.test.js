@@ -31,9 +31,7 @@ describe("Tests -  Days of Week Function", () => {
     ];
 
     days.forEach((item) => {
-      console.log(
-        `Testing day: ${item.day}, Expected: ${item.expected}`
-      );
+      console.log(`Testing day: ${item.day}, Expected: ${item.expected}`);
       expect(weekFn(item.day)).toBe(item.expected);
     });
   });
@@ -45,9 +43,7 @@ describe("Tests -  Days of Week Function", () => {
     const expected = null;
 
     days.forEach((item) => {
-      console.log(
-        `Testing day: ${item}, Expected: ${expected}`
-      );
+      console.log(`Testing day: ${item}, Expected: ${expected}`);
       expect(weekFn(item)).toBe(expected);
     });
   });

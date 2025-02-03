@@ -15,4 +15,3 @@ export function ageClassification(num) {
     ? "Рекорд"
     : null;
 }
-
