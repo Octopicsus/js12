@@ -1,5 +1,5 @@
-import { ageClassification } from "./ageClassification.js";
-import { weekFn } from "./weekFn.js";
+import { ageClassification } from "./function/ageClassification.js";
+import { weekFn } from "./function/weekFn.js";
 
 const task = 1;
 

@@ -1,4 +1,4 @@
-import { ageClassification } from "../ageClassification.js";
+import { ageClassification } from "../function/ageClassification.js";
 
 test("ageClassification", () => {
   expect(ageClassification(-1)).toBe(null);

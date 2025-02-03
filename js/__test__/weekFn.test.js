@@ -1,4 +1,4 @@
-import { weekFn } from "../weekFn";
+import { weekFn } from "../function/weekFn";
 
 test("weekFn", () => {
   expect(weekFn(1)).toBe("Понедельник");
