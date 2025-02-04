@@ -19,7 +19,7 @@ npm install --save-dev jest
 
 package.json:
 "scripts": {
-   "test": "jest"
+   "test": "jest --verbose"
  },
 
 ### Step #4
